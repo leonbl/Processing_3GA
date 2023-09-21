@@ -13,10 +13,10 @@ void draw(){
   background(100);
   xPos += xSpeed * xDir;
   yPos += ySpeed * yDir;
-  if(yPos > height || yPos < 0){
+  if(yPos > (height-radius/2) || yPos < radius/2){
     ySpeed *= -1;
   }
-  if(xPos > width || xPos < 0){
+  if(xPos > (width - radius/2) || xPos < radius/2){
     xSpeed *= -1;
   }
   ellipse(xPos, yPos, radius, radius);
