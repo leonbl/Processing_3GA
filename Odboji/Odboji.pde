@@ -1,3 +1,5 @@
+// Domača naloga: 3 krogci raličnih polmerov
+
 float xPos, yPos;
 float xSpeed = 4, ySpeed = 3;
 int xDir = 1, yDir = 1;
